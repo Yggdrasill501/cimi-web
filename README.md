@@ -1,4 +1,5 @@
 # Cimi Web
+
 A C/C++ micro framework for building web applications.
 
 The idea is to create a minimalistic framework in c++ and CMake to make it as easy as possible.
@@ -6,16 +7,23 @@ The framework must handle Servers and Web Sockets.
 And be as easy to use and possible with simple download to be used
 
 ## How to run in C++
+
 To run server just execute [shell script](https://github.com/Yggdrasill501/cimi-web/blob/main/server.sh)
+
 ```
 server.sh
 ```
+
 If you're having a struggle running server.sh, remember to give it the correct permission.
+
 ```
 chmod +x server.sh
 ```
-### Examples 
+
+### Examples
+
 - Simple Server implementation
+
 ```c++
 //// For Server listening
 int main() {
@@ -32,6 +40,7 @@ int main() {
 ```
 
 - Simple Client connection
+
 ```c++
 //// For Client connection
 int main() {
@@ -54,22 +63,21 @@ int main() {
 - For more Examples check [./examples/](https://github.com/Yggdrasill501/cimi-web/tree/main/examples)
 
 ## Import as python package
+
 ```zsh
 pip install cimi-web
 ```
 
-```python
-import cimi
-```
-
 ## Motivation
+
 You may ask where is the motivation coming from?
 It's coming to understand and to handle the best way how to handle back-end and api development,
 and since C/C++ is probably the most abstract way to do it your self.
 
 ## BTW
-The Motivation of this project was to make it as simple as possible. 
-Simplicity is always found in minimalism, 
+
+The Motivation of this project was to make it as simple as possible.
+Simplicity is always found in minimalism,
 so for the whole project I was using neovim,
 and if you wish to see my simple config visit [Neovim Setup](https://github.com/Yggdrasill501/yggdrasill501_nvim_setup).
 After this I can say, "I USE NEOVIM BTW!!!"

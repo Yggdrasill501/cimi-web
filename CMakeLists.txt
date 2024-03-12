@@ -15,9 +15,6 @@ endif()
 # Include directories
 include_directories(${PROJECT_SOURCE_DIR}/src)
 include_directories(${PROJECT_SOURCE_DIR}/src/cimi)
-include_directories(${PROJECT_BINARY_DIR}/extern)
-include_directories(${PROJECT_BINARY_DIR}/extern/pybind11)
-include_directories(${PROJECT_BINARY_DIR}/extern/pybind11/pybind11)
 
 # Source files
 set(SOURCES
@@ -44,5 +41,3 @@ add_executable(CimiWeb ${SOURCES}
         examples/src/server.cpp
 
 )
-
-configure_file(${PROJECT_SOURCE_DIR}/examples/public/index.html ${CMAKE_CURRENT_BINARY_DIR}/index.html COPYONLY)
