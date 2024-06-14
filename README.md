@@ -62,12 +62,6 @@ int main() {
 
 - For more Examples check [./examples/](https://github.com/Yggdrasill501/cimi-web/tree/main/examples)
 
-## Import as python package
-
-```zsh
-pip install cimi-web
-```
-
 ## Motivation
 
 You may ask where is the motivation coming from?
