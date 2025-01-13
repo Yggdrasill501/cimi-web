@@ -67,12 +67,3 @@ int main() {
 You may ask where is the motivation coming from?
 It's coming to understand and to handle the best way how to handle back-end and api development,
 and since C/C++ is probably the most abstract way to do it your self.
-
-## BTW
-
-The Motivation of this project was to make it as simple as possible.
-Simplicity is always found in minimalism,
-so for the whole project I was using neovim,
-and if you wish to see my simple config visit [Neovim Setup](https://github.com/Yggdrasill501/yggdrasill501_nvim_setup).
-After this I can say, "I USE NEOVIM BTW!!!"
-And for the future motivation I will implement this on my Raspberry PI, using arch and pacman, so I can say "I USE ARCHLINUX BTW"
